@@ -1,0 +1,1484 @@
+{
+  "nodes": [
+    {
+      "type": "tag",
+      "in": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "out": [],
+      "props": {
+        "name": "Tag 1",
+        "type": "tag",
+        "title": "Tag 1",
+        "color": "red",
+        "id": "3458764538612970059"
+      }
+    },
+    {
+      "type": "tag",
+      "in": [
+        1,
+        6
+      ],
+      "out": [],
+      "props": {
+        "name": "Tag 2",
+        "type": "tag",
+        "title": "Tag 2",
+        "color": "red",
+        "id": "3458764538612970125"
+      }
+    },
+    {
+      "type": "tag",
+      "in": [
+        4
+      ],
+      "out": [],
+      "props": {
+        "name": "Estimate 2",
+        "type": "tag",
+        "title": "Estimate: 2",
+        "color": "black",
+        "id": "3458764538615409432"
+      }
+    },
+    {
+      "type": "tag",
+      "in": [
+        7
+      ],
+      "out": [],
+      "props": {
+        "name": "Estimate 13",
+        "type": "tag",
+        "title": "Estimate: 13",
+        "color": "black",
+        "id": "3458764538615409695"
+      }
+    },
+    {
+      "type": "tag",
+      "in": [
+        8
+      ],
+      "out": [],
+      "props": {
+        "name": "rob",
+        "type": "tag",
+        "title": "rob",
+        "color": "red",
+        "id": "3458764539032598607"
+      }
+    },
+    {
+      "type": "card",
+      "in": [],
+      "out": [],
+      "props": {
+        "name": "Assigned to me",
+        "type": "card",
+        "title": "<p>Assigned to me</p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "assignee": {
+          "userId": "3074457347596990800"
+        },
+        "tagIds": [],
+        "id": "3458764539032431389",
+        "parentId": "3458764539032598734",
+        "origin": "center",
+        "createdAt": "2022-11-18T18:37:17.746Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:42:01.020Z",
+        "modifiedBy": "3074457347596990800",
+        "x": null,
+        "y": null,
+        "width": 320,
+        "height": 94,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "card",
+      "in": [],
+      "out": [
+        38
+      ],
+      "props": {
+        "name": "x1f64c",
+        "type": "card",
+        "title": "<p><a href=\"https://hsc.fed.wiki/\">&#x1f64c;</a></p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "dueDate": "2022-11-19",
+        "assignee": {
+          "userId": "3074457347596990800"
+        },
+        "tagIds": [],
+        "id": "3458764539032495772",
+        "parentId": "3458764539032598734",
+        "origin": "center",
+        "createdAt": "2022-11-18T18:38:55.580Z",
+        "createdBy": "3458764539030894735",
+        "modifiedAt": "2022-11-21T14:42:01.020Z",
+        "modifiedBy": "3074457347596990800",
+        "x": null,
+        "y": null,
+        "width": 320,
+        "height": 94,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "text",
+      "in": [
+        9
+      ],
+      "out": [],
+      "props": {
+        "name": "can we embed HSC here",
+        "type": "text",
+        "content": "<p>can we embed HSC here?</p>",
+        "style": {
+          "fillColor": "transparent",
+          "fillOpacity": 1,
+          "fontFamily": "open_sans",
+          "fontSize": 14,
+          "textAlign": "left"
+        },
+        "id": "3458764537769404224",
+        "parentId": "3458764537769404588",
+        "origin": "center",
+        "createdAt": "2022-11-04T18:03:17.314Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:31.443Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 100.14366502241978,
+        "y": 26.9332296411785,
+        "width": 166,
+        "height": 20,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "card",
+      "in": [
+        10
+      ],
+      "out": [
+        0,
+        1,
+        35
+      ],
+      "props": {
+        "name": "HSC in Miro",
+        "type": "card",
+        "title": "<p>HSC in Miro</p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "tagIds": [
+          "3458764538612970059",
+          "3458764538612970125"
+        ],
+        "id": "3458764537770988704",
+        "parentId": "3458764537769404588",
+        "origin": "center",
+        "createdAt": "2022-11-04T18:27:37.073Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:31.443Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 187.38615515612992,
+        "y": 111.6318610814905,
+        "width": 320,
+        "height": 94,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "card",
+      "in": [
+        11,
+        35
+      ],
+      "out": [
+        2
+      ],
+      "props": {
+        "name": "sdsd",
+        "type": "card",
+        "title": "<p>sdsd</p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "tagIds": [
+          "3458764538612970059"
+        ],
+        "id": "3458764537772310972",
+        "parentId": "3458764537813858235",
+        "origin": "center",
+        "createdAt": "2022-11-04T18:46:26.803Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:31.443Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 321.26059459019757,
+        "y": 357.58279473085497,
+        "width": 320,
+        "height": 94,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "preview",
+      "in": [
+        14
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "preview",
+        "id": "3458764538086150216",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:50:35.605Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "url": "https://dayton.fed.wiki/view/welcome-visitors/view/3x3-reflection",
+        "x": 283.09533695789105,
+        "y": 312.74668165061007,
+        "width": 250,
+        "height": 73
+      }
+    },
+    {
+      "type": "preview",
+      "in": [
+        15
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "preview",
+        "id": "3458764538086150248",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:50:39.881Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "url": "https://en.m.wikipedia.org/wiki/Five_whys",
+        "x": 608.139661110421,
+        "y": 254.24668165061007,
+        "width": 250,
+        "height": 190
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        16
+      ],
+      "out": [],
+      "props": {
+        "name": "First story of experience",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>First story of experience</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692007",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 280.21152871888125,
+        "y": 523.01095547362,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        17
+      ],
+      "out": [],
+      "props": {
+        "name": "three insights that came f",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>three insights that came from experience</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692008",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 277.18094297450125,
+        "y": 642.21480226111,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        18
+      ],
+      "out": [],
+      "props": {
+        "name": "deeper emotions of those i",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>deeper emotions of those insights</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692009",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 277.18094297450125,
+        "y": 758.55918484732,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        19
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692010",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 280.21152871888125,
+        "y": 575.3766207118501,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        20
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692011",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 277.18094297450125,
+        "y": 808.6949938550301,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        21
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692012",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 277.18094297450125,
+        "y": 692.1552177702201,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        22
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692013",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 386.3900388514112,
+        "y": 575.3766207118501,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        23
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692014",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 386.3900388514112,
+        "y": 808.6949938550301,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        24
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692015",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 386.3900388514112,
+        "y": 692.1552177702201,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        25
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692016",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 492.5685489839411,
+        "y": 575.3766207118501,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        26
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692017",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 492.5685489839411,
+        "y": 808.6949938550301,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        27
+      ],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692018",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 492.5685489839411,
+        "y": 692.1552177702201,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        28
+      ],
+      "out": [],
+      "props": {
+        "name": "3x3",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>3x3</p>",
+        "style": {
+          "fillColor": "gray",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692019",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 174.03301858635132,
+        "y": 523.01095547362,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        29
+      ],
+      "out": [],
+      "props": {
+        "name": "Second story of experience",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>Second story of experience</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692020",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 386.3900388514112,
+        "y": 523.01095547362,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        30
+      ],
+      "out": [],
+      "props": {
+        "name": "Third story of experience",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>Third story of experience</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692021",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 492.5685489839411,
+        "y": 523.01095547362,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        31
+      ],
+      "out": [],
+      "props": {
+        "name": "deeper emotions of those i",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>deeper emotions of those insights</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692022",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 386.3900388514112,
+        "y": 758.55918484732,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        32
+      ],
+      "out": [],
+      "props": {
+        "name": "deeper emotions of those i",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>deeper emotions of those insights</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692023",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 492.5685489839411,
+        "y": 758.55918484732,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        33
+      ],
+      "out": [],
+      "props": {
+        "name": "three insights that came f",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>three insights that came from experience</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692024",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 386.3900388514112,
+        "y": 642.21480226111,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        34
+      ],
+      "out": [],
+      "props": {
+        "name": "three insights that came f",
+        "type": "sticky_note",
+        "shape": "rectangle",
+        "content": "<p>three insights that came from experience</p>",
+        "style": {
+          "fillColor": "yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [],
+        "id": "3458764538086692025",
+        "parentId": "3458764539146908093",
+        "origin": "center",
+        "createdAt": "2022-11-08T21:58:19.844Z",
+        "createdBy": "3074457351767688523",
+        "modifiedAt": "2022-11-21T14:42:24.360Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 492.5685489839411,
+        "y": 642.21480226111,
+        "width": 91.63350874451339,
+        "height": 59.69268569642587
+      }
+    },
+    {
+      "type": "preview",
+      "in": [],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "preview",
+        "id": "3458764538107369437",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-09T06:07:19.024Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:25.342Z",
+        "modifiedBy": "3074457347596990800",
+        "url": "https://globs.design/p/425dae73-9d78-4944-96cf-604f9dcf90f1",
+        "x": -1919.43952576208,
+        "y": -481.852869381926,
+        "width": 250,
+        "height": 148
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        12,
+        36
+      ],
+      "out": [
+        3,
+        4
+      ],
+      "props": {
+        "name": "green",
+        "type": "sticky_note",
+        "shape": "square",
+        "content": "<p>green</p>",
+        "style": {
+          "fillColor": "dark_green",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [
+          "3458764538612970059",
+          "3458764538615409432"
+        ],
+        "id": "3458764538612858854",
+        "parentId": "3458764538614479759",
+        "origin": "center",
+        "createdAt": "2022-11-15T04:20:09.646Z",
+        "createdBy": "3458764538612910968",
+        "modifiedAt": "2022-11-21T14:41:37.850Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 58.33067566299451,
+        "y": 69.41380132592394,
+        "width": 107.46000000000001,
+        "height": 123.12
+      }
+    },
+    {
+      "type": "sticky_note",
+      "in": [
+        13
+      ],
+      "out": [
+        5,
+        6,
+        7,
+        36
+      ],
+      "props": {
+        "name": "yellow",
+        "type": "sticky_note",
+        "shape": "square",
+        "content": "<p>yellow</p>",
+        "style": {
+          "fillColor": "light_yellow",
+          "textAlign": "center",
+          "textAlignVertical": "middle"
+        },
+        "tagIds": [
+          "3458764538612970059",
+          "3458764538612970125",
+          "3458764538615409695"
+        ],
+        "id": "3458764538612858913",
+        "parentId": "3458764538614479759",
+        "origin": "center",
+        "createdAt": "2022-11-15T04:20:24.639Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:37.850Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 209.84719180059653,
+        "y": 69.41380132592394,
+        "width": 107.46000000000001,
+        "height": 123.12
+      }
+    },
+    {
+      "type": "preview",
+      "in": [],
+      "out": [],
+      "props": {
+        "name": "Link",
+        "type": "preview",
+        "id": "3458764538768156016",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-16T12:56:15.396Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:37.850Z",
+        "modifiedBy": "3074457347596990800",
+        "url": "https://robert.wiki.openlearning.cc/stickies-with-tags-and-multiple-creators.html",
+        "x": -642.963276469769,
+        "y": 575.672047413149,
+        "width": 250,
+        "height": 196
+      }
+    },
+    {
+      "type": "card",
+      "in": [],
+      "out": [
+        37
+      ],
+      "props": {
+        "name": "1",
+        "type": "card",
+        "title": "<p>1</p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "tagIds": [],
+        "id": "3458764538768156599",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-16T12:57:15.761Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:20.265Z",
+        "modifiedBy": "3074457347596990800",
+        "x": -2885.91668280776,
+        "y": -846.118457461997,
+        "width": 320,
+        "height": 60,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "card",
+      "in": [
+        37
+      ],
+      "out": [],
+      "props": {
+        "name": "2",
+        "type": "card",
+        "title": "<p>2</p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "tagIds": [],
+        "id": "3458764538768156670",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-16T12:57:26.767Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:20.265Z",
+        "modifiedBy": "3074457347596990800",
+        "x": -2470.01133734355,
+        "y": -846.118457461997,
+        "width": 320,
+        "height": 60,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "card",
+      "in": [
+        38
+      ],
+      "out": [
+        8
+      ],
+      "props": {
+        "name": "Assigned to who",
+        "type": "card",
+        "title": "<p>Assigned to who?</p>",
+        "description": "",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "tagIds": [
+          "3458764539032598607"
+        ],
+        "id": "3458764539032495059",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-18T18:38:00.477Z",
+        "createdBy": "3458764539030894735",
+        "modifiedAt": "2022-11-21T14:42:01.020Z",
+        "modifiedBy": "3074457347596990800",
+        "x": 49.891397326465494,
+        "y": 1329.3209984419,
+        "width": 320,
+        "height": 94,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "card",
+      "in": [],
+      "out": [],
+      "props": {
+        "name": "This board",
+        "type": "card",
+        "title": "<p><a href=\"https://this%20boardhttps//miro.com/app/board/uXjVPGvlZYM&#61;/?share_link_id&#61;873132976093\">This board</a></p>",
+        "description": "<p><a href=\"https://miro.com/app/board/uXjVPGvlZYM&#61;/?share_link_id&#61;873132976093\">https://miro.com/app/board/uXjVPGvlZYM&#61;/?share_link_id&#61;873132976093</a></p>",
+        "style": {
+          "cardTheme": "#2d9bf0"
+        },
+        "tagIds": [],
+        "id": "3458764539147091809",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-21T06:15:18.416Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:49.045Z",
+        "modifiedBy": "3074457347596990800",
+        "x": -417.227035843467,
+        "y": -1250.22938261107,
+        "width": 320,
+        "height": 94,
+        "rotation": 0
+      }
+    },
+    {
+      "type": "frame",
+      "in": [],
+      "out": [
+        9,
+        10
+      ],
+      "props": {
+        "name": "Frame 1"
+      }
+    },
+    {
+      "type": "frame",
+      "in": [],
+      "out": [
+        11
+      ],
+      "props": {
+        "name": "Frame 2"
+      }
+    },
+    {
+      "type": "frame",
+      "in": [],
+      "out": [
+        12,
+        13
+      ],
+      "props": {
+        "name": "Frame 3"
+      }
+    },
+    {
+      "type": "frame",
+      "in": [],
+      "out": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "props": {
+        "name": "Thompson"
+      }
+    }
+  ],
+  "rels": [
+    {
+      "type": "has tag",
+      "from": 8,
+      "to": 0,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 8,
+      "to": 1,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 9,
+      "to": 0,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 32,
+      "to": 0,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 32,
+      "to": 2,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 33,
+      "to": 0,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 33,
+      "to": 1,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 33,
+      "to": 3,
+      "props": {}
+    },
+    {
+      "type": "has tag",
+      "from": 37,
+      "to": 4,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 39,
+      "to": 7,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 39,
+      "to": 8,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 40,
+      "to": 9,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 41,
+      "to": 32,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 41,
+      "to": 33,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 10,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 11,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 12,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 13,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 14,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 15,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 16,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 17,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 18,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 19,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 20,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 21,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 22,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 23,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 24,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 25,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 26,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 27,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 28,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 29,
+      "props": {}
+    },
+    {
+      "type": "cluster",
+      "from": 42,
+      "to": 30,
+      "props": {}
+    },
+    {
+      "type": " ",
+      "from": 8,
+      "to": 9,
+      "props": {
+        "type": "connector",
+        "shape": "curved",
+        "start": {
+          "item": "3458764537770988704"
+        },
+        "end": {
+          "item": "3458764537772310972"
+        },
+        "style": {
+          "startStrokeCap": "none",
+          "endStrokeCap": "stealth",
+          "strokeStyle": "normal",
+          "strokeWidth": 2,
+          "strokeColor": "#333333"
+        },
+        "id": "3458764537772310995",
+        "parentId": "3458764537813858235",
+        "origin": "center",
+        "createdAt": "2022-11-04T18:46:30.413Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:31.443Z",
+        "modifiedBy": "3074457347596990800"
+      }
+    },
+    {
+      "type": " ",
+      "from": 33,
+      "to": 32,
+      "props": {
+        "type": "connector",
+        "shape": "curved",
+        "start": {
+          "item": "3458764538612858913"
+        },
+        "end": {
+          "item": "3458764538612858854"
+        },
+        "style": {
+          "startStrokeCap": "none",
+          "endStrokeCap": "stealth",
+          "strokeStyle": "normal",
+          "strokeWidth": 2,
+          "strokeColor": "#333333"
+        },
+        "id": "3458764538612970182",
+        "parentId": "3458764538614479759",
+        "origin": "center",
+        "createdAt": "2022-11-15T04:21:03.152Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:37.850Z",
+        "modifiedBy": "3074457347596990800"
+      }
+    },
+    {
+      "type": " ",
+      "from": 35,
+      "to": 36,
+      "props": {
+        "type": "connector",
+        "shape": "curved",
+        "start": {
+          "item": "3458764538768156599"
+        },
+        "end": {
+          "item": "3458764538768156670"
+        },
+        "style": {
+          "startStrokeCap": "filled_triangle",
+          "endStrokeCap": "none",
+          "strokeStyle": "normal",
+          "strokeWidth": 2,
+          "strokeColor": "#333333"
+        },
+        "id": "3458764538768333326",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-16T12:57:46.686Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:41:20.265Z",
+        "modifiedBy": "3074457347596990800"
+      }
+    },
+    {
+      "type": " ",
+      "from": 6,
+      "to": 37,
+      "props": {
+        "type": "connector",
+        "shape": "curved",
+        "start": {
+          "item": "3458764539032495772"
+        },
+        "end": {
+          "item": "3458764539032495059"
+        },
+        "style": {
+          "startStrokeCap": "none",
+          "endStrokeCap": "stealth",
+          "strokeStyle": "normal",
+          "strokeWidth": 2,
+          "strokeColor": "#333333"
+        },
+        "id": "3458764539032598283",
+        "parentId": null,
+        "origin": "center",
+        "createdAt": "2022-11-18T18:39:39.163Z",
+        "createdBy": "3074457347596990800",
+        "modifiedAt": "2022-11-21T14:42:01.020Z",
+        "modifiedBy": "3074457347596990800"
+      }
+    }
+  ]
+}
