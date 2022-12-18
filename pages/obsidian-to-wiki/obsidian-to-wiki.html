@@ -4,5 +4,12 @@
   </head>
   <body>
     <div id="result" onclick="doclick(event)">working</div>
+
+    <script type="module">
+      import * as frame from "./frame.js";
+      const assets = await frame.assets();
+      Console.log("Test");
+      Console.log(assets);
+    </script>
   </body>
 </html>
