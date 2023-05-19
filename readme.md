@@ -1,0 +1,1 @@
+## assets on federated wiki pages as web apps

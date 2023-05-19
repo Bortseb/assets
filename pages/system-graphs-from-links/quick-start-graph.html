@@ -14,7 +14,8 @@
   import * as live from './live.js'
   const sitemap = await fetch(`//${live.site}/system/sitemap.json`).then(res => res.json())
   console.log(sitemap)
-  const page = await live.page('System Graphs from Links')
+  const identifiers = Object.fromEntries(new URLSearchParams(window.location.hash.substr(1)).entries()  )
+  const page = await live.page(identifiers.title)
   console.log({page})
 
   dot.push(quote(page.title))
