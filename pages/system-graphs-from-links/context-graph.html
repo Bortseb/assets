@@ -9,9 +9,8 @@
   import * as frame from 'http://code.fed.wiki/assets/v1/frame.js'
   import * as index from 'http://code.fed.wiki/assets/v1/index.js'
   const quote = name => `"${name.replaceAll(/ /g,'\n')}"`
-
   let onWiki = true
-  
+
   const dot = ['digraph { rankdir=LR']  
   let {site:domain, page} = await frame.context()
   console.log({domain}, {page})
