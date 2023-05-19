@@ -19,7 +19,7 @@
       }
     </style>
 
-    <div class="resize-drag">Drag or resize me from any edge or corner</div>
+    <div class="resize-drag">Drag or resize me!</div>
 
     <script type="module">
       interact(".resize-drag")
@@ -27,11 +27,20 @@
           inertia: true,
           modifiers: [
             interact.modifiers.restrictRect({
-              restriction: "parent"
+              restriction: "parent",
             }),
           ],
           // autoScroll: true,
-          listeners: { move: dragMoveListener },
+          listeners: {
+            move(event) {
+              var target = event.target;
+              var x = (parseFloat(target.getAttribute("data-x")) || 0) + event.dx;
+              var y = (parseFloat(target.getAttribute("data-y")) || 0) + event.dy;
+              target.style.transform = "translate(" + x + "px, " + y + "px)";
+              target.setAttribute("data-x", x);
+              target.setAttribute("data-y", y);
+            },
+          },
         })
         .resizable({
           edges: { left: true, right: true, bottom: true, top: true },
@@ -50,7 +59,7 @@
               target.setAttribute("data-x", x);
               target.setAttribute("data-y", y);
               // target.textContent = Math.round(event.rect.width) + "\u00D7" + Math.round(event.rect.height);
-            }
+            },
           },
           modifiers: [
             interact.modifiers.restrictEdges({
@@ -60,19 +69,8 @@
               min: { width: 100, height: 50 },
             }),
           ],
-          inertia: true
-        })
-
-      function dragMoveListener(event) {
-        var target = event.target
-        var x = (parseFloat(target.getAttribute("data-x")) || 0) + event.dx
-        var y = (parseFloat(target.getAttribute("data-y")) || 0) + event.dy
-        target.style.transform = "translate(" + x + "px, " + y + "px)"
-        target.setAttribute("data-x", x)
-        target.setAttribute("data-y", y)
-      }
-
-      window.dragMoveListener = dragMoveListener
+          inertia: true,
+        });
     </script>
   </body>
 </html>
