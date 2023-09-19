@@ -1,0 +1,38 @@
+<!-- prompt for potential member information -->
+
+<center>
+  <article>
+    <h1>Sep15 Experimental Cohort </h1>
+    <p>We are using process <a href="https://sep15.wcs.ustawi.wiki/view/custom-registration">Step 2.0</a> for setting up each student wiki.</p>
+    <p><input id=domain type=text placeholder="full domain name" size=40 required>
+    <button onclick=doit(event)>ok</button></p>
+    <p id=result></p>
+  </article>
+</center>
+
+<style>
+  article {
+    width:30em;
+    border:1px solid gray;
+    background-color:#eee;
+    padding:16;
+    font-family:sans-serif;
+  }
+</style>
+
+<script type=module>
+  // https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript 
+  window.doit = async event => {
+    window.result.innerText = 'working'
+    if (!window.domain.validity.valid)
+      return window.result.innerText = window.domain.validationMessage
+    const context = {site:location.host}
+    const data = {domain:window.domain.value.trim()}
+    const result = await fetch('/plugin/register/custom', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({context,data})
+    }).then(res => res.text());
+    window.result.innerText = result
+  }
+</script>
